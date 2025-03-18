@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter text"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtPitch"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/edtGet"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:text="Pitch"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold" />-->
+
+
+<!--    <SeekBar-->
+<!--        android:id="@+id/seekPitch"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/txtPitch"-->
+<!--        android:layout_marginTop="10dp" />-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtSpeed"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/seekPitch"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:text="Speed"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold" />-->
+
+
+<!--    <SeekBar-->
+<!--        android:id="@+id/seekSpeed"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/txtSpeed"-->
+<!--        android:layout_marginTop="10dp" />-->
+
+    <Button
+        android:id="@+id/btnSay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtGet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="SAY"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>
